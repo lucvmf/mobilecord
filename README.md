@@ -18,12 +18,14 @@ import { status } from "mobilecord";
 status();
 ```
 
-> **Note:**
-> You can choose the device type.
+> **Note:**  
+> You can choose the device type.  
 >
-> - `status("ios")` sets the status to iOS
-> - `status("android")` sets the status to Android
->   _this will NOT change the difference or look._
+> - `status("ios")` sets the status to iOS  
+> - `status("android")` sets the status to Android  
+>  
+> _This will NOT change the difference or look._
+
 
 ## Contact
 
