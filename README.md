@@ -29,6 +29,6 @@ status();
 
 ## Contact
 
-> discord: lucvmf
+> discord: lucvxc
 > 
-> angels bot: https://angels.lat
+> june bot: https://june.lat (uses this exact library)
