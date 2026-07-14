@@ -18,6 +18,15 @@ import { status } from "mobilecord";
 status();
 ```
 
+Keep the typing indicator active while waiting for an async task:
+
+```js
+import { typing } from "mobilecord";
+
+const reply = await typing(message.channel, () => generateReply());
+await message.reply(reply);
+```
+
 > **Note:**  
 > You can choose the device type.  
 >
@@ -26,6 +35,16 @@ status();
 > - `status("vr")` sets the status to vr   
 > _This will NOT change the difference or look if you use teh ios or the android option, but the vr one will provide a different icon._
 
+# NEW FEATURE
+
+## typing
+
+```js
+import { typing } from "mobilecord";
+
+const reply = await typing(message.channel, () => generateReply());
+await message.reply(reply);
+```
 
 ## Contact
 
