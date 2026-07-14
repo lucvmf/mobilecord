@@ -1,4 +1,4 @@
-# mobilecord 1.4.0 (UPDATED JUN. 15th 2026)
+# mobilecord 1.4.1 (UPDATED JUL. 14th 2026)
 
 Set Discord bot mobile status for Node.js, Bun, TypeScript, and JavaScript.
 
@@ -12,7 +12,7 @@ npm install mobilecord
 
 ## Example
 
-```js
+```ts
 import { status } from "mobilecord";
 
 status();
@@ -31,4 +31,4 @@ status();
 
 > discord: lucvxc
 > 
-> june bot: https://june.lat (uses this exact library)
+> june bot: https://june.rocks (uses this exact library)
