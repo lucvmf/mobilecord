@@ -1,4 +1,4 @@
-# mobilecord 1.4.1 (UPDATED JUL. 14th 2026)
+# mobilecord v2 (UPDATED JUL. 14th 2026)
 
 Set Discord bot mobile status for Node.js, Bun, TypeScript, and JavaScript.
 
@@ -39,7 +39,7 @@ await message.reply(reply);
 
 ## typing
 
-```js
+```ts
 import { typing } from "mobilecord";
 
 const reply = await typing(message.channel, () => generateReply());
